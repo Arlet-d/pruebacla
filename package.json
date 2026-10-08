@@ -1,0 +1,31 @@
+{
+  "name": "pruebacla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "pg": "^8.23.1",
+    "typeorm": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arlet-d/pruebacla.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arlet-d/pruebacla/issues"
+  },
+  "homepage": "https://github.com/Arlet-d/pruebacla#readme"
+}
